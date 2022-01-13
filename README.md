@@ -25,4 +25,7 @@ The preprocessing and creation of the PS object(s) can be found in 'Scripts' usi
  - 3.CleaningPS.R
 
  
+  #### SNP analysis (table S3)
+  
+  
  
