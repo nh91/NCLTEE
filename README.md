@@ -2,7 +2,7 @@
 
  ### Data and scripts to reproduce results from the NCLTEE experiment 
  
- Results are published in 'The capability of <i>Phaeobacter inhibens</i> to produce microbial secondary metabolites governs development and community dynamics of a microalgae community' (In submission)
+ Results are published in the publication 'The capability of <i>Phaeobacter inhibens</i> to produce microbial secondary metabolites governs development and community dynamics of a microalgae community' (In submission)
 
  
  ## Guide
