@@ -20,9 +20,9 @@
 
 The preprocessing and creation of the PS object(s) can be found in 'Scripts' using the following scripts:
  
- - 1.XXX (Not added yet)
- - 2.AssignTaxonomy_DADA2.R 
- - 3.CreatePS.R
- - 4.CleaningPS.R 
+ - 1.DADA2_pipeline.R
+ - 2.CreatePS.R
+ - 3.CleaningPS.R
+
  
  
