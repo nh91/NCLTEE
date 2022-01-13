@@ -3,11 +3,7 @@
 
 #### ---- Import data ---- ####
 
-# Old Metadata
-metadata_old <- read.table("Data/metadata.tsv", sep="\t", row.names = 2)
-metadatatest = subset(metadata_old, select = c("sample.name", "type", "time", "exp.condition", "bio.rep")) #remove unnesseray variables
-
-#Cleaned metadata - simplified
+#Cleaned metadata
 metadata <- read.csv("Data/metadata_clean.csv", row.names = 1)
 
 
@@ -39,21 +35,6 @@ hist(nchar(getSequences(taxa_silva138.1)))
 taxa_silva138.2 <- taxa_silva138.1[nchar(rownames(taxa_silva138.1)) %in% 381:441,] # here they are rows
 table(nchar(getSequences(taxa_silva138.2)))
 
-
-#### ---- Rep.seqs fasta with all length of seqs --- ####
-
-# get representative sequences with all lengths (before filter out short seqs)
-#asv_alllen <- colnames(seqtab2)
-#asv_headers_alllen = vector(dim(seqtab2) [2], mode = "character")
-
-
-#for (i in 1:dim(seqtab2)[2]) {
-#asv_headers_alllen[i] <- paste(">ASV", i, sep="_")
-#}
-#asv_alllen_fasta <- c(rbind(asv_headers_alllen, asv_alllen))
-#write(asv_alllen_fasta, "shortlenseqs/ASVs_alllen_sequences.fa")
-
-
 #### ---- Standard files + add ASV names ---- ####
 
 # giving our seq headers more manageable names (ASV_1, ASV_2...)
@@ -66,12 +47,12 @@ for (i in 1:dim(seqtab3)[2]) {
 
 # Making and writing out a fasta of our final ASV seqs:
 asv_fasta <- c(rbind(asv_headers, asv_seqs))
-write(asv_fasta, "Data/ASVs_sequences.fa")
+#write(asv_fasta, "Data/ASVs_sequences.fa")
 
 # count table:
 asv_tab <- t(seqtab3)
 row.names(asv_tab) <- sub(">", "", asv_headers)
-write.table(asv_tab, "Data/ASVs_tab.tsv", sep="\t", quote=F, col.names=NA)
+#write.table(asv_tab, "Data/ASVs_tab.tsv", sep="\t", quote=F, col.names=NA)
 
 # tax table:
 # creating table of taxonomy and setting any that are unclassified as "NA"
@@ -79,7 +60,7 @@ ranks <- c("domain", "phylum", "class", "order", "family", "genus", "species")
 colnames(taxa_silva138.2) <- ranks
 rownames(taxa_silva138.2) <- gsub(pattern=">", replacement="", x=asv_headers)
 
-write.table(taxa_silva138.2, "Data/ASVs_taxa_silva138.2.tsv", sep = "\t", quote=F, col.names=NA)
+#write.table(taxa_silva138.2, "Data/ASVs_taxa_silva138.2.tsv", sep = "\t", quote=F, col.names=NA)
 
 #### ---- Phyloseq object ---- ####
 

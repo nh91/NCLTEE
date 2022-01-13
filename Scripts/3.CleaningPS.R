@@ -139,15 +139,10 @@ ps_filt2 = ps_filt1 %>%
 
 # Save filtered and cleaned PS object  # Final PS object with 1091 ASVs and 126 samples 
 #save(ps_filt2, file = "Data/ps.clean.RData")
-# use this dataset for the Phaeobacter dynamics (part one of results)
+# use this dataset for the Phaeobacter dynamics (Fig5C)
 
 
 # Additional cleaning #
-
-# Filter to keep taxa that has more than one read in more than one sample 
-ps.reduced <- filter_taxa(ps_filt2, function (x) {sum(x > 0) > 1}, prune=TRUE) # Final reduced dataset has 159 taxa (removed 932 ASVs)
-# Save as Phyloseq object 
-#save(ps.reduced, file = "Data/ps.reduced.RData")
 
 ### Filter off genera with too low abundance in total dataset
 load("Data/ps.clean.RData")
