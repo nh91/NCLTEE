@@ -40,9 +40,6 @@ alphadiv$System = factor(alphadiv$System, levels= c("TDA", "NoTDA", "Control"))
 alphadiv$day = factor(alphadiv$day, levels = c("0", "7", "14", "21", "28", "35", "42", "49", "56", "63", "70"))
 alphadiv$lineage = paste(alphadiv$System,alphadiv$bio.rep, sep = "")
 
-#Save df
-#save(alphadiv, file = "Data/alphadiv_observed.RData")
-
 # Summarize
 alphadiv_stats = alphadiv %>%
   group_by(time, System) %>%
@@ -54,8 +51,6 @@ table.observed = alphadiv_stats %>%
   arrange(System, time) %>%
   rename(Day = time)
 
-#Save df
-#write.csv(table.observed, "Data/observed_values.csv", row.names = FALSE)
 
 ##############
 ### Figure ###
@@ -92,30 +87,6 @@ ggsave("Fig2.svg",
        dpi = 300)
 
 
-
-# Dotplot alternative
-# ggplot(alphadiv, aes(x=as.factor(day), y= Observed, color = System, fill = System))+
-#   geom_dotplot(binaxis='y', stackdir='center', position=position_dodge(3), dotsize = 0.7, alpha = 0.7)+
-#   stat_summary(fun.data=mean_sdl, fun.args = list(mult=1), geom="pointrange", position = position_dodge(3), shape = 3)+
-#   facet_grid(.~day, scale = "free_x")+
-#   theme_bw(base_size = 8) +
-#   scale_y_continuous(limits=c(15,35), breaks=seq(15,35,by =5))+
-#   scale_color_manual(values=system_color2)+
-#   scale_fill_manual(values=system_color2)+
-#   labs(y = "Observed richness\n", x="\nTime (day)")+
-#   theme(strip.text.x = element_blank()) +
-#   theme(legend.text = element_text(face = "bold",colour = "black"),
-#         legend.title = element_text(face = "bold",colour = "black"),
-#         legend.position="top")+
-#   theme(axis.text = element_text(color = "Black", face = "bold"),
-#         axis.title = element_text(color = "Black", face = "bold"))+ 
-#   theme(panel.grid.major = element_blank(),
-#         panel.grid.minor = element_blank())
-
-
-
-
-
 #############
 ### Stats ###
 #############
@@ -149,4 +120,4 @@ sum.alphadiv = alphadiv %>%
             sd.observed = sd(Observed),
             count = n())
 
-write.csv(sum.alphadiv, file = "observedrichness_table.csv")
+#write.csv(sum.alphadiv, file = "observedrichness_table.csv")
