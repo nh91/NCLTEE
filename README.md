@@ -27,5 +27,14 @@ The preprocessing and creation of the PS object(s) can be found in 'Scripts' usi
  
   #### SNP analysis (table S3)
   
+  We used the <i>snippy</i> tool (https://github.com/tseemann/snippy) to predicted SNP in the 48 <i>Phaeobacter</i> isolates. 
   
+  To reproduce the results follow the installation guide at https://github.com/tseemann/snippy and collect the following input:
+  - The raw reads from the 48 isolates from BioProject (SRA): PRJNA795303. 
+  - Update the 'input.txt' file (found in 'Data/') with your path to the R1 and R2 reads. 
+  - Get the reference genome (genbank file) from <i>Phaobacter inhibens </i> DSM17395 (GenBank assembly accession GCA_000154765.2).
+  
+  Then run the following code:
+
+snippy-multi input.txt --ref GCA_000154765.2_ASM15476v2_genomic.gbff --cpus 20 > runme.sh
  
