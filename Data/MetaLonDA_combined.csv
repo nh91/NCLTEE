@@ -1,0 +1,12 @@
+Genera,Family,Order,Class,System,Comparison,day_0,day_7,day_14,day_21,day_28,day_35,day_42,day_49,day_56,day_63,day_70
+Sulfitobacter,Rhodobacteraceae,Rhodobacterales,Alphaproteobacteria,TDA,TDAvsNoTDA,0.036554041,0.036554041,0.036554041,NA,NA,0.047421458,NA,0.019264967,0.019264967,0.019264967,0.019264967
+Alteromonas,Alteromonadaceae,Enterobacterales,Gammaproteobacteria,TDA,TDAvsNoTDA,0.013586016,0.013586016,0.013586016,0.013586016,0.013586016,0.013586016,0.013586016,0.013586016,0.013586016,0.013586016,0.013586016
+Cohaesibacter,Rhizobiaceae,Rhizobiales,Alphaproteobacteria,NoTDA,TDAvsNoTDA,NA,NA,NA,0.008353601,0.008353601,0.008353601,0.008353601,0.008353601,0.008353601,0.008353601,0.008353601
+Donghicola,Rhodobacteraceae,Rhodobacterales,Alphaproteobacteria,NoTDA,TDAvsNoTDA,NA,NA,NA,NA,NA,0.041450777,0.041450777,0.041450777,0.041450777,0.041450777,0.041450777
+Sulfitobacter,Rhodobacteraceae,Rhodobacterales,Alphaproteobacteria,TDA,TDAvsControl,0.025651295,0.025651295,0.025651295,0.025651295,0.025651295,0.025651295,0.025651295,0.025651295,0.025651295,0.025651295,NA
+Alteromonas,Alteromonadaceae,Enterobacterales,Gammaproteobacteria,TDA,TDAvsControl,0.011542207,0.011542207,0.011542207,0.011542207,0.011542207,0.011542207,0.011542207,NA,NA,NA,NA
+Cohaesibacter,Rhizobiaceae,Rhizobiales,Alphaproteobacteria,Control,TDAvsControl,NA,NA,NA,NA,NA,NA,NA,0.036687631,0.036687631,NA,NA
+Marivita,Rhodobacteraceae,Rhodobacterales,Alphaproteobacteria,Control,TDAvsControl,NA,NA,0.033095723,0.033095723,NA,NA,NA,NA,NA,NA,NA
+Halomonas,Halomonadaceae,Pseudomonadales,Gammaproteobacteria,TDA,TDAvsControl,0.026604555,0.026604555,0.026604555,0.026604555,0.026604555,0.026604555,0.026604555,0.026604555,0.026604555,0.026604555,0.026604555
+Sulfitobacter,Rhodobacteraceae,Rhodobacterales,Alphaproteobacteria,NoTDA,NoTDAvsControl,NA,0.047671434,NA,NA,NA,NA,NA,NA,0.023835717,0.023835717,0.023835717
+Alteromonas,Alteromonadaceae,Enterobacterales,Gammaproteobacteria,NoTDA,NoTDAvsControl,0.019015199,0.019015199,0.019015199,0.019015199,0.019015199,0.019015199,0.019015199,0.019015199,0.019015199,0.019015199,0.019015199
