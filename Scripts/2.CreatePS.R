@@ -14,7 +14,7 @@ metadata <- read.csv("Data/metadata_clean.csv", row.names = 1)
 # load ASV table
 seqtab <- readRDS("Data/seqtab.nochim.rds") # file from dada2 
 
-# remove shivanis samples
+# remove samples not related to the project
 seqtab2 <- seqtab[-c(141:150),]
 
 #Load taxanomy
