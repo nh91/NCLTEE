@@ -8,7 +8,7 @@
 ### Load data ###
 #################
 
-load("Data/ps.genus.reduced.RData")
+load("Data/ps.asv.reduced.RData")
 
 
 #########################
@@ -17,13 +17,13 @@ load("Data/ps.genus.reduced.RData")
 
 #Make alpha estimation (Observed)
 set.seed(41)
-observed = estimate_richness(ps.genus.reduced, measures = "Observed")
+observed = estimate_richness(ps.asv.reduced, measures = "Observed")
 # Make df
 # Get sample ID as rows
-rownames(observed) = sample_names(ps.genus.reduced) 
+rownames(observed) = sample_names(ps.asv.reduced) 
 
 # Extract sample_data fra PS
-s <- data.frame(sample_data(ps.genus.reduced)) 
+s <- data.frame(sample_data(ps.asv.reduced)) 
 
 # Get a vector with SampleID - for merging
 SampleID <- row.names(observed)
@@ -35,7 +35,7 @@ even_stats <- data.frame(SampleID, observed)
 alphadiv <- merge(even_stats, s, by = 0) 
 
 # Rename factor, order level, add day and lineage
-alphadiv = alphadiv %>% rename(System = exp.condition)
+alphadiv = alphadiv %>% dplyr::rename(System = exp.condition)
 alphadiv$System = factor(alphadiv$System, levels= c("TDA", "NoTDA", "Control"))
 alphadiv$day = factor(alphadiv$day, levels = c("0", "7", "14", "21", "28", "35", "42", "49", "56", "63", "70"))
 alphadiv$lineage = paste(alphadiv$System,alphadiv$bio.rep, sep = "")
@@ -60,12 +60,16 @@ table.observed = alphadiv_stats %>%
 system_color2 = c("#5B1A18", "#7294D4", "#D8A499")
 
 # Figure
-Fig2 = ggplot(alphadiv, aes(x=as.factor(day), y= Observed, color = System, fill = System))+
-  geom_boxplot(outlier.colour = NA, color = "black", alpha = 0.9, position=position_dodge())+
-  facet_grid(.~day, scale = "free_x")+
-  geom_jitter(position=position_dodge(0.75), color ="black", shape = 21, aes(fill = System))+
+Fig2 = ggplot(alphadiv_stats, aes(x=time, y= observed.mean, color = System, fill = System))+
+  geom_line()+
+  #facet_grid(.~day, scale = "free_x")+
+  geom_point(data = alphadiv, aes(x = Time, y = Observed, group = System), 
+             alpha = 0.7, position = position_jitter(width = 0.1))+
+  geom_ribbon(alphadiv_stats, aes(ymin = observed.mean-observed.std, 
+                  ymax = observed.mean+observed.std),
+              fill = System, alpha = 0.2, color = NA)+
   theme_bw(base_size = 8) +
-  scale_y_continuous(limits=c(15,35), breaks=seq(15,35,by =5))+
+  #scale_y_continuous(limits=c(15,35), breaks=seq(15,35,by =5))+
   scale_color_manual(values=system_color2)+
   scale_fill_manual(values=system_color2)+
   labs(y = "Observed richness\n", x="\nTime (day)")+
