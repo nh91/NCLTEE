@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   class="svglite"
+   width="510.24pt"
+   height="510.24pt"
+   viewBox="0 0 510.24 510.24"
+   version="1.1"
+   id="svg2984"
+   sodipodi:docname="tree.rhodo-updated.svg"
+   inkscape:version="1.1.2 (b8e25be8, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview2986"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="pt"
+     showgrid="false"
+     inkscape:zoom="1.0950729"
+     inkscape:cx="340.15999"
+     inkscape:cy="273.49777"
+     inkscape:window-width="1296"
+     inkscape:window-height="969"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2984" />
+  <defs
+     id="defs2706">
+    <style
+       type="text/css"
+       id="style2704"><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+  ]]></style>
+    <style
+       type="text/css"
+       id="style22029"><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+  ]]></style>
+    <clipPath
+       id="cpMC4wMHw1MTAuMjR8MC4wMHw1MTAuMjQ=-9">
+      <rect
+         x="0.00"
+         y="0.00"
+         width="510.24"
+         height="510.24"
+         id="rect22035" />
+    </clipPath>
+    <clipPath
+       id="cpMjguMjR8NDgyLjAwfDAuMDB8NTEwLjI0-5">
+      <rect
+         x="28.24"
+         y="0.00"
+         width="453.76"
+         height="510.24"
+         id="rect22042" />
+    </clipPath>
+  </defs>
+  <defs
+     id="defs2713">
+    <clipPath
+       id="cpMC4wMHw1MTAuMjR8MC4wMHw1MTAuMjQ=">
+      <rect
+         x="0.00"
+         y="0.00"
+         width="510.24"
+         height="510.24"
+         id="rect2710" />
+    </clipPath>
+  </defs>
+  <g
+     clip-path="url(#cpMC4wMHw1MTAuMjR8MC4wMHw1MTAuMjQ=)"
+     id="g2715" />
+  <defs
+     id="defs2720">
+    <clipPath
+       id="cpMjguMjR8NDgyLjAwfDAuMDB8NTEwLjI0">
+      <rect
+         x="28.24"
+         y="0.00"
+         width="453.76"
+         height="510.24"
+         id="rect2717" />
+    </clipPath>
+  </defs>
+  <g
+     id="g22451">
+    <g
+       clip-path="url(#cpMC4wMHw1MTAuMjR8MC4wMHw1MTAuMjQ=-9)"
+       id="g22040" />
+    <g
+       clip-path="url(#cpMC4wMHw1MTAuMjR8MC4wMHw1MTAuMjQ=-9)"
+       id="g22307">
+      <rect
+         x="36.09"
+         y="464.72"
+         width="17.280001"
+         height="17.280001"
+         style="fill:#ffffff;stroke:none;stroke-width:1.07"
+         id="rect22235" />
+      <rect
+         x="120.67"
+         y="464.72"
+         width="17.280001"
+         height="17.280001"
+         style="fill:#ffffff;stroke:none;stroke-width:1.07"
+         id="rect22247" />
+      <rect
+         x="120.67"
+         y="482"
+         width="17.280001"
+         height="17.280001"
+         style="fill:#ffffff;stroke:none;stroke-width:1.07"
+         id="rect22251" />
+      <rect
+         x="199.17"
+         y="464.72"
+         width="17.280001"
+         height="17.280001"
+         style="fill:#ffffff;stroke:none;stroke-width:1.07"
+         id="rect22255" />
+      <rect
+         x="199.17"
+         y="482"
+         width="17.280001"
+         height="17.280001"
+         style="fill:#ffffff;stroke:none;stroke-width:1.07"
+         id="rect22259" />
+      <rect
+         x="267.89001"
+         y="464.72"
+         width="17.280001"
+         height="17.280001"
+         style="fill:#ffffff;stroke:none;stroke-width:1.07"
+         id="rect22263" />
+      <rect
+         x="267.89001"
+         y="482"
+         width="17.280001"
+         height="17.280001"
+         style="fill:#ffffff;stroke:none;stroke-width:1.07"
+         id="rect22267" />
+      <g
+         id="g34545">
+        <ellipse
+           cx="-147.05464"
+           cy="379.44785"
+           style="fill:#e488a0;fill-opacity:0.6;stroke:#e488a0;stroke-width:0;stroke-opacity:0.6"
+           id="circle22201"
+           rx="55.80674"
+           ry="38.870953"
+           transform="matrix(0.82248929,-0.5687806,0.66208336,0.7494302,0,0)" />
+        <g
+           id="g34369">
+          <polyline
+             points="115.45,255.49 106.23,257.45 "
+             style="stroke-width:2.13"
+             id="polyline22053" />
+          <polyline
+             points="125.05,177.67 124.23,177.37 "
+             style="stroke-width:2.13"
+             id="polyline22055" />
+          <polyline
+             points="116.95,215.75 107.44,215.09 "
+             style="stroke-width:2.13"
+             id="polyline22057" />
+          <polyline
+             points="172.28,117.73 168.35,112.70 164.43,107.68 160.51,102.66 156.58,97.64 152.66,92.61 148.73,87.59 "
+             style="stroke-width:2.13"
+             id="polyline22059" />
+          <polyline
+             points="145.83,145.11 140.66,141.35 135.48,137.59 130.31,133.84 125.14,130.08 119.96,126.32 114.79,122.56 "
+             style="stroke-width:2.13"
+             id="polyline22061" />
+          <polyline
+             points="274.08,125.72 275.22,119.28 276.35,112.85 277.49,106.42 278.62,99.99 "
+             style="stroke-width:2.13"
+             id="polyline22063" />
+          <polyline
+             points="245.90,124.73 244.75,113.81 "
+             style="stroke-width:2.13"
+             id="polyline22065" />
+          <polyline
+             points="279.01,179.34 281.63,173.96 284.25,168.58 286.88,163.20 289.50,157.82 292.12,152.44 294.75,147.07 297.37,141.69 "
+             style="stroke-width:2.13"
+             id="polyline22067" />
+          <polyline
+             points="320.92,185.25 327.31,181.26 333.69,177.27 "
+             style="stroke-width:2.13"
+             id="polyline22069" />
+          <polyline
+             points="307.33,169.05 310.49,165.54 "
+             style="stroke-width:2.13"
+             id="polyline22071" />
+          <polyline
+             points="256.49,225.51 262.38,223.82 268.27,222.13 274.16,220.44 280.05,218.75 285.94,217.06 291.83,215.37 297.72,213.69 303.61,212.00 309.50,210.31 315.39,208.62 321.28,206.93 327.18,205.24 333.07,203.55 338.96,201.86 344.85,200.17 350.74,198.48 356.63,196.79 "
+             style="stroke-width:2.13"
+             id="polyline22073" />
+          <polyline
+             points="217.66,129.40 214.32,121.15 210.99,112.90 "
+             style="stroke-width:2.13"
+             id="polyline22075" />
+          <polyline
+             points="158.51,320.13 151.31,327.08 "
+             style="stroke-width:2.13"
+             id="polyline22077" />
+          <polyline
+             points="188.38,343.47 185.15,349.07 181.92,354.66 "
+             style="stroke-width:2.13"
+             id="polyline22079" />
+          <polyline
+             points="129.18,293.20 127.66,294.01 "
+             style="stroke-width:2.13"
+             id="polyline22081" />
+          <polyline
+             points="256.49,225.51 256.49,225.51 "
+             style="stroke-width:2.13"
+             id="polyline22083" />
+          <polyline
+             points="256.49,225.51 259.48,219.30 262.48,213.09 265.47,206.88 268.47,200.67 271.46,194.46 "
+             style="stroke-width:2.13"
+             id="polyline22085" />
+          <polyline
+             points="257.39,191.05 257.61,182.61 257.83,174.16 "
+             style="stroke-width:2.13"
+             id="polyline22087" />
+          <polyline
+             points="236.42,178.22 232.99,170.16 229.57,162.10 "
+             style="stroke-width:2.13"
+             id="polyline22089" />
+          <polyline
+             points="205.29,179.41 200.13,174.76 194.96,170.11 189.79,165.46 184.63,160.80 179.46,156.15 "
+             style="stroke-width:2.13"
+             id="polyline22091" />
+          <polyline
+             points="156.85,196.94 148.95,194.67 "
+             style="stroke-width:2.13"
+             id="polyline22093" />
+          <polyline
+             points="147.06,248.77 139.87,250.30 132.68,251.83 "
+             style="stroke-width:2.13"
+             id="polyline22095" />
+          <polyline
+             points="154.09,299.91 153.40,300.41 "
+             style="stroke-width:2.13"
+             id="polyline22097" />
+          <polyline
+             points="136.74,269.09 128.87,271.96 121.00,274.82 "
+             style="stroke-width:2.13"
+             id="polyline22099" />
+          <polyline
+             points="178.04,325.92 172.63,332.84 "
+             style="stroke-width:2.13"
+             id="polyline22101" />
+          <polyline
+             points="132.68,199.19 126.17,197.81 119.67,196.43 "
+             style="stroke-width:2.13"
+             id="polyline22103" />
+          <polyline
+             points="176.02,147.80 171.54,143.47 167.06,139.15 162.58,134.82 158.10,130.49 "
+             style="stroke-width:2.13"
+             id="polyline22105" />
+          <polyline
+             points="258.89,156.66 259.12,150.18 259.35,143.69 259.57,137.21 259.80,130.72 260.02,124.24 "
+             style="stroke-width:2.13"
+             id="polyline22107" />
+          <polyline
+             points="282.89,203.35 288.19,198.91 293.49,194.46 298.79,190.01 304.09,185.57 309.39,181.12 314.69,176.67 "
+             style="stroke-width:2.13"
+             id="polyline22109" />
+          <polyline
+             points="121.00,274.82 118.85,268.47 117.00,262.02 115.45,255.49 "
+             style="stroke-width:2.13"
+             id="polyline22111" />
+          <polyline
+             points="119.67,196.43 121.17,190.09 122.96,183.84 125.05,177.67 "
+             style="stroke-width:2.13"
+             id="polyline22113" />
+          <polyline
+             points="119.67,196.43 118.46,202.82 117.56,209.27 116.95,215.75 "
+             style="stroke-width:2.13"
+             id="polyline22115" />
+          <polyline
+             points="158.10,130.49 162.62,126.02 167.35,121.76 172.28,117.73 "
+             style="stroke-width:2.13"
+             id="polyline22117" />
+          <polyline
+             points="158.10,130.49 153.78,135.18 149.69,140.05 145.83,145.11 "
+             style="stroke-width:2.13"
+             id="polyline22119" />
+          <polyline
+             points="260.02,124.24 267.08,124.73 274.08,125.72 "
+             style="stroke-width:2.13"
+             id="polyline22121" />
+          <polyline
+             points="260.02,124.24 252.95,124.24 245.90,124.73 "
+             style="stroke-width:2.13"
+             id="polyline22123" />
+          <polyline
+             points="257.83,174.16 265.11,174.87 272.22,176.61 279.01,179.34 "
+             style="stroke-width:2.13"
+             id="polyline22125" />
+          <polyline
+             points="314.69,176.67 320.92,185.25 "
+             style="stroke-width:2.13"
+             id="polyline22127" />
+          <polyline
+             points="314.69,176.67 307.33,169.05 "
+             style="stroke-width:2.13"
+             id="polyline22129" />
+          <polyline
+             points="256.49,225.51 256.49,225.51 "
+             style="stroke-width:2.13"
+             id="polyline22131" />
+          <polyline
+             points="179.46,156.15 184.11,151.31 189.07,146.77 194.31,142.57 199.82,138.72 205.56,135.23 211.51,132.12 217.66,129.40 "
+             style="stroke-width:2.13"
+             id="polyline22133" />
+          <polyline
+             points="172.63,332.84 167.73,328.83 163.01,324.59 158.51,320.13 "
+             style="stroke-width:2.13"
+             id="polyline22135" />
+          <polyline
+             points="172.63,332.84 177.71,336.63 182.97,340.17 188.38,343.47 "
+             style="stroke-width:2.13"
+             id="polyline22137" />
+          <polyline
+             points="121.00,274.82 123.44,281.07 126.17,287.20 129.18,293.20 "
+             style="stroke-width:2.13"
+             id="polyline22139" />
+          <polyline
+             points="256.49,225.51 256.49,225.51 "
+             style="stroke-width:2.13"
+             id="polyline22141" />
+          <polyline
+             points="256.49,225.51 256.49,225.51 "
+             style="stroke-width:2.13"
+             id="polyline22143" />
+          <polyline
+             points="271.46,194.46 264.61,192.01 257.39,191.05 "
+             style="stroke-width:2.13"
+             id="polyline22145" />
+          <polyline
+             points="257.83,174.16 250.52,174.49 243.34,175.85 236.42,178.22 "
+             style="stroke-width:2.13"
+             id="polyline22147" />
+          <polyline
+             points="229.57,162.10 224.15,164.69 218.97,167.74 214.08,171.23 209.51,175.13 205.29,179.41 "
+             style="stroke-width:2.13"
+             id="polyline22149" />
+          <polyline
+             points="179.46,156.15 175.13,161.29 171.14,166.69 167.51,172.34 164.25,178.22 161.38,184.30 158.91,190.54 156.85,196.94 "
+             style="stroke-width:2.13"
+             id="polyline22151" />
+          <polyline
+             points="148.95,194.67 147.44,200.56 146.24,206.51 145.38,212.52 144.83,218.57 144.62,224.64 144.74,230.71 145.19,236.77 145.96,242.80 147.06,248.77 "
+             style="stroke-width:2.13"
+             id="polyline22153" />
+          <polyline
+             points="132.68,251.83 134.23,258.27 136.11,264.62 138.32,270.87 140.86,276.99 143.71,282.97 146.87,288.80 150.33,294.45 154.09,299.91 "
+             style="stroke-width:2.13"
+             id="polyline22155" />
+          <polyline
+             points="153.40,300.41 149.38,294.54 145.69,288.45 142.35,282.17 139.36,275.71 136.74,269.09 "
+             style="stroke-width:2.13"
+             id="polyline22157" />
+          <polyline
+             points="153.40,300.41 157.74,306.05 162.39,311.43 167.33,316.55 172.55,321.39 178.04,325.92 "
+             style="stroke-width:2.13"
+             id="polyline22159" />
+          <polyline
+             points="132.68,251.83 131.47,245.31 130.61,238.74 130.09,232.13 129.91,225.51 130.09,218.88 130.61,212.28 131.47,205.71 132.68,199.19 "
+             style="stroke-width:2.13"
+             id="polyline22161" />
+          <polyline
+             points="148.95,194.67 150.78,188.88 152.93,183.20 155.38,177.64 158.12,172.23 161.16,166.97 164.48,161.88 168.07,156.98 171.92,152.28 176.02,147.80 "
+             style="stroke-width:2.13"
+             id="polyline22163" />
+          <polyline
+             points="229.57,162.10 235.20,159.99 240.99,158.39 246.90,157.29 252.88,156.72 258.89,156.66 "
+             style="stroke-width:2.13"
+             id="polyline22165" />
+          <polyline
+             points="271.46,194.46 277.65,198.30 282.89,203.35 "
+             style="stroke-width:2.13"
+             id="polyline22167" />
+          <text
+             transform="rotate(-72,206.06759,-151.22213)"
+             style="font-weight:bold;font-size:12.9px;font-family:Arial"
+             textLength="48.02"
+             lengthAdjust="spacingAndGlyphs"
+             id="text22169">ASV_61</text>
+          <text
+             transform="rotate(-88,178.4494,-77.505604)"
+             style="font-weight:bold;font-size:12.9px;font-family:Arial"
+             textLength="48.02"
+             lengthAdjust="spacingAndGlyphs"
+             id="text22171">ASV_15</text>
+          <text
+             transform="rotate(-50,300.18766,-261.43294)"
+             style="font-weight:bold;font-size:12.9px;font-family:Arial"
+             textLength="48.02"
+             lengthAdjust="spacingAndGlyphs"
+             id="text22173">ASV_17</text>
+          <text
+             transform="rotate(-20,677.44477,-885.45978)"
+             style="font-weight:bold;font-size:12.9px;font-family:Arial"
+             textLength="40.849998"
+             lengthAdjust="spacingAndGlyphs"
+             id="text22175">ASV_9</text>
+          <text
+             transform="rotate(-42,371.53696,-337.57058)"
+             style="font-weight:bold;font-size:12.9px;font-family:Arial"
+             textLength="48.02"
+             lengthAdjust="spacingAndGlyphs"
+             id="text22177">ASV_62</text>
+          <text
+             transform="translate(367.1,201.13)"
+             style="font-weight:bold;font-size:12.9px;font-family:Arial"
+             textLength="48.02"
+             lengthAdjust="spacingAndGlyphs"
+             id="text22179">ASV_76</text>
+          <text
+             transform="rotate(40,-182.33493,240.59)"
+             text-anchor="end"
+             style="font-weight:bold;font-size:12.9px;font-family:Arial"
+             textLength="55.189999"
+             lengthAdjust="spacingAndGlyphs"
+             id="text22183">ASV_260</text>
+          <text
+             transform="rotate(27,-399.25741,307.09112)"
+             text-anchor="end"
+             style="font-weight:bold;font-size:12.9px;font-family:Arial"
+             textLength="48.02"
+             lengthAdjust="spacingAndGlyphs"
+             id="text22185">ASV_51</text>
+          <text
+             transform="rotate(69,12.281091,141.95891)"
+             text-anchor="end"
+             style="font-weight:bold;font-size:12.9px;font-family:Arial"
+             textLength="48.02"
+             lengthAdjust="spacingAndGlyphs"
+             id="text22187">ASV_26</text>
+          <text
+             transform="rotate(48,-79.810612,174.41673)"
+             text-anchor="end"
+             style="font-weight:bold;font-size:12.9px;font-family:Arial"
+             textLength="55.189999"
+             lengthAdjust="spacingAndGlyphs"
+             id="text22189">ASV_102</text>
+          <text
+             transform="rotate(77,36.800473,180.11415)"
+             text-anchor="end"
+             style="font-weight:bold;font-size:12.9px;font-family:Arial"
+             textLength="48.02"
+             lengthAdjust="spacingAndGlyphs"
+             id="text22193">ASV_85</text>
+          <text
+             transform="rotate(-23,896.68123,-185.0587)"
+             text-anchor="end"
+             style="font-weight:bold;font-size:12.9px;font-family:Arial"
+             textLength="48.02"
+             lengthAdjust="spacingAndGlyphs"
+             id="text22195">ASV_66</text>
+          <text
+             transform="rotate(-39,603.86058,-67.226856)"
+             text-anchor="end"
+             style="font-weight:bold;font-size:12.9px;font-family:Arial"
+             textLength="48.02"
+             lengthAdjust="spacingAndGlyphs"
+             id="text22197">ASV_22</text>
+          <text
+             transform="matrix(1.281488,-0.06975647,0.08961037,0.99756405,121.85896,299.03511)"
+             text-anchor="end"
+             style="font-weight:bold;font-size:12.9px;font-family:Arial"
+             textLength="48.02"
+             lengthAdjust="spacingAndGlyphs"
+             id="text22199">ASV_56/57</text>
+          <text
+             transform="matrix(1.281488,-0.06975647,0.08961037,0.99756405,100.62573,262.50813)"
+             text-anchor="end"
+             style="font-weight:bold;font-size:12.9px;font-family:Arial;white-space:pre"
+             textLength="48.02"
+             lengthAdjust="spacingAndGlyphs"
+             id="text22199-7">ASV_35/36</text>
+          <ellipse
+             cx="316.08936"
+             cy="-285.67651"
+             style="fill:#6cb643;fill-opacity:0.6;stroke:#6cb643;stroke-width:0;stroke-opacity:0.6"
+             id="circle22203"
+             rx="25.036737"
+             ry="70.721481"
+             transform="matrix(0.37056092,0.92880816,-0.85718273,0.51501239,0,0)" />
+          <ellipse
+             cx="49.284557"
+             cy="130.74643"
+             style="fill:#a35bcd;fill-opacity:0.6;stroke:#a35bcd;stroke-width:0;stroke-opacity:0.6"
+             id="circle22205"
+             rx="24.131689"
+             ry="48.102695"
+             transform="rotate(-45.648692)" />
+          <ellipse
+             cx="325.4234"
+             cy="270.52383"
+             style="fill:#bdad46;fill-opacity:0.6;stroke:#bdad46;stroke-width:0;stroke-opacity:0.6"
+             id="circle22211"
+             rx="59.32925"
+             ry="26.89893"
+             transform="matrix(0.98157822,-0.19106074,0.35684075,0.93416523,0,0)" />
+          <ellipse
+             cx="172.05518"
+             cy="-128.1893"
+             style="fill:#596ec6;fill-opacity:0.6;stroke:#596ec6;stroke-width:0;stroke-opacity:0.6"
+             id="circle22215"
+             rx="45.705593"
+             ry="21.392141"
+             transform="rotate(58.476517)" />
+          <ellipse
+             cx="74.050468"
+             cy="280.00745"
+             style="fill:#d05335;fill-opacity:0.6;stroke:#d05335;stroke-width:0;stroke-opacity:0.6"
+             id="circle22219"
+             rx="62.142853"
+             ry="44.678261" />
+          <ellipse
+             cx="273.40665"
+             cy="55.810272"
+             style="fill:#4ea9cf;fill-opacity:0.6;stroke:#4ea9cf;stroke-width:0;stroke-opacity:0.6"
+             id="circle22221"
+             rx="38.745705"
+             ry="45.820259"
+             transform="matrix(0.99927357,0.03810952,-0.08861629,0.99606584,0,0)" />
+          <ellipse
+             cx="75.603104"
+             cy="179.42464"
+             style="fill:#d9436c;fill-opacity:0.6;stroke:#d9436c;stroke-width:0;stroke-opacity:0.6"
+             id="circle22223"
+             rx="61.115524"
+             ry="51.527119" />
+          <ellipse
+             cx="-304.21771"
+             cy="158.84462"
+             style="fill:#55b483;fill-opacity:0.6;stroke:#55b483;stroke-width:0;stroke-opacity:0.6"
+             id="circle22227"
+             rx="18.31016"
+             ry="38.171852"
+             transform="rotate(-133.03556)" />
+          <ellipse
+             cx="32.307571"
+             cy="113.09995"
+             style="fill:#d352a9;fill-opacity:0.6;stroke:#d352a9;stroke-width:0;stroke-opacity:0.6"
+             id="circle22229"
+             rx="38.343006"
+             ry="42.138016"
+             transform="matrix(0.99899332,-0.04485919,0.47221319,0.88148437,0,0)" />
+          <text
+             x="143.42999"
+             y="476.23001"
+             style="font-style:italic;font-size:8px;font-family:Arial"
+             textLength="50.259998"
+             lengthAdjust="spacingAndGlyphs"
+             id="text22287"
+             transform="translate(280.11833,-275.32413)">Defluviimonas</text>
+          <text
+             x="143.42999"
+             y="493.51001"
+             style="font-style:italic;font-size:8px;font-family:Arial"
+             textLength="40.029999"
+             lengthAdjust="spacingAndGlyphs"
+             id="text22289"
+             transform="translate(30.134979,-441.7514)">Donghicola</text>
+          <text
+             x="221.92999"
+             y="476.23001"
+             style="font-style:italic;font-size:8px;font-family:Arial"
+             textLength="40.490002"
+             lengthAdjust="spacingAndGlyphs"
+             id="text22291"
+             transform="translate(23.971006,-429.42345)">Jannaschia</text>
+          <text
+             x="221.92999"
+             y="493.51001"
+             style="font-style:italic;font-size:8px;font-family:Arial"
+             textLength="28.02"
+             lengthAdjust="spacingAndGlyphs"
+             id="text22293"
+             transform="translate(150.6749,-352.03135)">Marivita</text>
+          <text
+             x="290.64999"
+             y="476.23001"
+             style="font-style:italic;font-size:8px;font-family:Arial"
+             textLength="45.369999"
+             lengthAdjust="spacingAndGlyphs"
+             id="text22295"
+             transform="translate(-263.68107,-191.76805)">Phaeobacter</text>
+          <text
+             x="290.64999"
+             y="493.51001"
+             style="font-style:italic;font-size:8px;font-family:Arial"
+             textLength="43.150002"
+             lengthAdjust="spacingAndGlyphs"
+             id="text22297"
+             transform="translate(-195.19248,-117.80037)">Ponticoccus</text>
+          <text
+             x="364.26999"
+             y="476.23001"
+             style="font-style:italic;font-size:8px;font-family:Arial"
+             textLength="42.700001"
+             lengthAdjust="spacingAndGlyphs"
+             id="text22299"
+             transform="translate(-43.147811,-388.3303)">Roseicyclus</text>
+          <text
+             x="364.26999"
+             y="493.51001"
+             style="font-style:italic;font-size:8px;font-family:Arial"
+             textLength="45.369999"
+             lengthAdjust="spacingAndGlyphs"
+             id="text22301"
+             transform="translate(-339.7034,-329.43011)">Roseobacter</text>
+          <text
+             x="437.87"
+             y="476.23001"
+             style="font-style:italic;font-size:8px;font-family:Arial"
+             textLength="44.48"
+             lengthAdjust="spacingAndGlyphs"
+             id="text22303"
+             transform="translate(-334.9092,-447.23049)">Sulfitobacter</text>
+          <text
+             x="437.87"
+             y="493.51001"
+             style="font-style:italic;font-size:8px;font-family:Arial"
+             textLength="64.059998"
+             lengthAdjust="spacingAndGlyphs"
+             id="text22305"
+             transform="translate(-425.99903,-428.05369)">Yoonia-Loktanella</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
