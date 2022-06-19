@@ -61,13 +61,13 @@ algae_tech$System = factor(algae_tech$System, levels= c("TDA", "NoTDA", "Control
 
 S1 = ggplot(algae_bio, aes(day, log_bio_mean, color = System)) +
   geom_point(data = algae_tech, aes(x = day, y = log_mean, group = System),
-             alpha = 0.6, position = position_dodge(width = 2.5), size = 2, stroke = 0)+
+             alpha = 0.6, position = position_dodge(width = 2.5), size = 1.5, stroke = 0)+
   geom_line(size=0.5, position = position_dodge(width = 2.5), alpha = 0.6, linetype = 'dashed') + 
-  geom_point(size=4, position = position_dodge(width = 2.5)) + 
+  geom_point(size=3, position = position_dodge(width = 2.5)) + 
   geom_errorbar(aes(ymax = log_bio_mean + log_bio_std, ymin = log_bio_mean - log_bio_std),
                 alpha = 0.6, position = position_dodge(width = 2.5), width = 0, size = 0.5) + 
   labs(x="\n Time (days) \n", y= "log10(cells/mL) \n") + 
-  theme_bw(base_size = 8) +
+  theme_bw(base_size = 12) +
   theme(legend.text = element_text(size = 11), 
         legend.title = element_text(size=12, face="bold")) +
   scale_color_manual(values=system_color2, labels = c(expression(italic("P. inhibens (WT)")),expression(Delta*"tdaB"), "Control"))+
@@ -86,7 +86,7 @@ S1 = ggplot(algae_bio, aes(day, log_bio_mean, color = System)) +
 S1 
 #ggsave(filename = "algae_abundance_culture.png", plot=start_bio_plot_N, device="png", height=5, width=10, units="in", dpi=500)
 
-ggsave(filename = "Fig1C-Algae.pdf", plot = S1, width=17.5, height=10, units="cm", dpi = 400)
+ggsave(filename = "Fig1C-Algae.pdf", plot = S1, width=15, height=10, units="cm", dpi = 400)
 
 #############
 ### Stats ###
