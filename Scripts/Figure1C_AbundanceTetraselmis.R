@@ -3,7 +3,7 @@
 
 
 # Import data
-abundance <- read.csv("C:/Users/nasuh/Desktop/PhD_nasuh/PhD_exp/Projects/NC-LTEE1_oct2019/NCLTEE/Data/Abundance_Tetraselmis.csv", header = T, sep = ";")
+abundance <- read.csv("Data/Abundance_Tetraselmis.csv", header = T, sep = ";")
 
 # Data wrangling
 
@@ -49,36 +49,44 @@ ggplot(algae_tech, aes(day, log_mean, color = biorep))+
   scale_x_continuous(breaks = seq(0, 70, by=7))
 
 #Mean bioreps cultures #
-system_color2 = c("#5B1A18", "#7294D4", "#D8A499")
+system_color2 = c("#9C3206", "#00A091", "black")
 algae_bio$culture = plyr::revalue(algae_bio$culture, c("c"="Control", "p"="TDA", "d" = "NoTDA"))
-algae_bio = rename(algae_bio, System = culture)
+algae_bio = dplyr::rename(algae_bio, System = culture)
 algae_bio$System = factor(algae_bio$System, levels= c("TDA", "NoTDA", "Control"))
 
+algae_tech$culture = plyr::revalue(algae_tech$culture, c("c"="Control", "p"="TDA", "d" = "NoTDA"))
+algae_tech = dplyr::rename(algae_tech, System = culture)
+algae_tech$System = factor(algae_tech$System, levels= c("TDA", "NoTDA", "Control"))
 
-S1 = ggplot(algae_bio, aes(day, log_bio_mean, color = System, shape = System)) +
-  geom_point(size=3) + 
-  geom_line(size=1) + 
-  geom_ribbon(aes(ymax = log_bio_mean + log_bio_std, ymin = log_bio_mean - log_bio_std, fill = System),alpha = 0.2,  color = NA) + 
+
+S1 = ggplot(algae_bio, aes(day, log_bio_mean, color = System)) +
+  geom_point(data = algae_tech, aes(x = day, y = log_mean, group = System),
+             alpha = 0.6, position = position_dodge(width = 2.5), size = 1.5, stroke = 0)+
+  geom_line(size=0.5, position = position_dodge(width = 2.5), alpha = 0.6, linetype = 'dashed') + 
+  geom_point(size=3, position = position_dodge(width = 2.5)) + 
+  geom_errorbar(aes(ymax = log_bio_mean + log_bio_std, ymin = log_bio_mean - log_bio_std),
+                alpha = 0.6, position = position_dodge(width = 2.5), width = 0, size = 0.5) + 
   labs(x="\n Time (days) \n", y= "log10(cells/mL) \n") + 
-  theme_bw(base_size = 8) +
-  theme(legend.text = element_text(size = 11), legend.title = element_text(size=12, face="bold")) +
-  scale_color_manual(values=system_color2)+
-  scale_fill_manual(values=system_color2)+
-  scale_x_continuous(breaks = c(0, 14, 28, 42, 56, 70))+
+  theme_bw(base_size = 12) +
+  theme(legend.text = element_text(size = 11), 
+        legend.title = element_text(size=12, face="bold")) +
+  scale_color_manual(values=system_color2, labels = c(expression(italic("P. inhibens (WT)")),expression(Delta*"tdaB"), "Control"))+
+  scale_fill_manual(values=system_color2, labels = c(expression(italic("P. inhibens (WT)")),expression(Delta*"tdaB"), "Control"))+
+  scale_x_continuous(breaks = c(0, 7, 14, 21, 28, 35, 42, 49, 56, 63, 70))+
   theme(axis.text.y = element_text(colour = "black", face = "bold"), 
         axis.text.x = element_text(colour = "black", face = "bold"), 
-        legend.text = element_text(face ="bold", colour ="black"),
-        legend.position = "right", axis.title.y = element_text(face = "bold"), 
+        legend.text = element_text(colour ="black"),
+        legend.position = c(0.8,0.2), axis.title.y = element_text(face = "bold"), 
         plot.title = element_text(face = "bold", hjust = 0.5),
         axis.title.x = element_text(face = "bold", colour = "black"), 
         legend.title = element_text(colour = "black", face = "bold"), 
         panel.grid.major = element_blank(),
         panel.grid.minor = element_blank(),
         panel.border = element_rect(colour = "black", fill = NA, size = 1))
-
+S1 
 #ggsave(filename = "algae_abundance_culture.png", plot=start_bio_plot_N, device="png", height=5, width=10, units="in", dpi=500)
 
-ggsave(filename = "S1_Algae.pdf", plot = S1, width=17.5, height=10, units="cm", dpi = 400)
+ggsave(filename = "Fig1C-Algae.pdf", plot = S1, width=15, height=10, units="cm", dpi = 400)
 
 #############
 ### Stats ###
@@ -105,7 +113,7 @@ Anova(lmm.ts) #interaction is borderline, time is significant
 
 #Post-hoc analysis
 emm.ts = emmeans(lmm.ts, ~ as.factor(culture)| as.factor(day) )
-contrast(emm.ts, interaction = "pairwise", adjust = "Bonferroni") #day 42 has significance vs TDA
+contrast(emm.ts, interaction = "pairwise", adjust = "Bonferroni") #day 49 has significance vs TDA
 
 
  ##############################################################################################################################################
