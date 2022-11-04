@@ -1,6 +1,8 @@
 # Natural Community Long-Term Evolution Experiment (NCLTEE)
 
- ##### Data and scripts to reproduce results from the publication 'The ability of <i>Phaeobacter inhibens </i> to produce tropodithietic acid influences the community dynamics of a microalgal microbiome' published in ISME Communcations (Information to come)
+ ##### Data and scripts to reproduce results from the publication 
+Henriksen, N.N.S.E., Schostag, M.D., Balder, S.R. et al. 'The ability of <i> Phaeobacter inhibens </i> to produce tropodithietic acid influences the community dynamics of a microalgal microbiome.' ISME COMMUN. 2, 109 (2022). 
+https://doi.org/10.1038/s43705-022-00193-6
  
  ## Guide
  
